@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chrome app</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+}
+
+#logo{
+    font-size: 80px;
+    margin-top: 234px;
+    
+}
+#search{
+border-top-left-radius: 34px;
+border-bottom-left-radius: 34px;
+border-top-right-radius: 34px;
+border-bottom-right-radius: 34px;
+
+}
+ /* #input-box{
+    width:90%;
+    position: relative;
+    left:400px;
+}   */
+#search-icon i{
+    position: relative;
+    top:34px;
+    left:20px;
+}
+#search-icon #icon{
+    position: relative;
+    left:83%;
+
+}
+#cont{
+    width: 700px;
+}
+#cont-tiem{
+    width:600px;
+}
+
+/* media quiries--------------- */
+@media(max-width:800px){
+    #logo{
+        position: relative;
+        left:70px;
+    }
+    header{
+        position: absolute;
+        top:200px;
+   
+
+    }
+    #cont-tiem{
+        position: relative;
+        top:650px;
+    }
+    
+}
+</style>
+<body  class="bg-warning"> 
+    <header>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-12 col-sm-12">
+               <div id="logo" class="text-center text-success"> 
+                Google
+               </div>
+            </div>
+        </div>
+    </div> 
+    
+    <div  id="cont"class="container">
+        <div class="row">
+            <div class="col col-md-12 col-sm-12">
+                <div id="input-box" class="ms-5">
+                <form action="" id="search-icon">  
+                    <div>
+                    <i class="fa-solid fa-magnifying-glass" ></i>
+                    <i class="fa-solid fa-microphone"id="icon"></i>
+                 <i class="fa-solid fa-camera ps-3" id="icon"></i>       
+                 <input   id="search" class="form-control fs-5 ps-5" type="text" name="" id="" placeholder="Search Google or type a URI"> 
+            </div>  
+            </form>
+               </div>
+            </div>
+            </div>
+        </div>
+    </div>    
+</header>
+
+        <div id="cont-tiem" class="container">
+            <div class="row mt-5 ms-4">
+                <div class="col col-md-3 ">
+                    <i class="fa-brands fa-youtube"></i>
+                    <p class="fs-5 fw-5 text-primary m-1">YouTube</p>
+                </div>
+        
+                <div class="col col-md-3">
+                    <i class="fa-brands fa-amazon"></i>
+                    <p class="fs-5 fw-5 text-primary">Amazon</p>
+                </div>
+        
+                <div class="col col-md-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p class="fs-5 fw-5 text-primary">Facebook</p>
+                </div>
+        
+                <div class="col col-md-3">
+                    <i class="fa-brands fa-twitter"></i>
+                    <p class="fs-5 fw-5 text-primary">Twitter</p>
+                </div>
+        
+        
+        
+
+
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
